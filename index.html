@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-------- title ----------->
+    <title>Bookshub</title>
+
+    <!-------- customer style link ----------->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!-------- font awesome cdn link --------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!------- swipper cdn link ------------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+
+
+
+</head>
+<body>
+
+<!--header section starts-->
+
+<header class="header">
+
+    <div class="header-1">
+        <a href="#" class="logo"> <i class="fas fa-book"></i> BooksHub </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+
+    <div class="header-2">
+        <div class="navbar">
+            <a href="categories.html">Categories</a>
+            <a href="bestsellers.html" >Bestsellers</a>
+            <a href="newarrival.html" > New Arrivals</a>
+            <a href="review.html" >Review</a>
+            <a href="#contact" >Contact</a>
+
+        </div>
+    </div>
+    <div class="menubar">
+        <i class='bx bx-menu'  id="menu-icon"></i>
+    </div>
+
+    <div class="main-header">
+        <div class="header">
+            <h5>BooksHub Bookstore</h5>
+            <h4>For all your reading needs</h4>
+            <a href="" class="btn">Get started</a>
+        </div>
+
+        <img src="./images/home.png">
+    </div>
+
+</header>
+<!--header section ends-->
+
+<!---services----->
+
+<div class="sevices">
+    <div class="services-box">
+        <div class="services-card">
+            <i class='bx bxs-car'></i>
+            <h3>Fast Delivery</h3>
+            <p>
+                Experience the thrill of instant literary gratification with our lightning-fast book delivery service! 
+            </p>
+        </div>
+
+        <div class="services-card">
+            <i class='bx bx-headphone' ></i>
+            <h3>24 x 7 Services</h3>
+            <p>Experience the thrill of instant literary gratification with our lightning-fast book delivery service! 
+                
+            </p>
+        </div>
+
+        <div class="services-card">
+            <i class='bx bxs-purchase-tag-alt' ></i>
+            <h3>Best Deal</h3>
+            <p>
+                Experience the thrill of instant literary gratification with our lightning-fast book delivery service!             </p>
+        </div>
+
+        <div class="services-card">
+            <i class='bx bxs-lock-alt' ></i>
+            <h3>Secure Payment</h3>
+            <p>
+                Experience the thrill of instant literary gratification with our lightning-fast book delivery service!             </p>
+        </div>
+
+    </div>
+</div>
+<!-------- login form start ----------->
+
+   
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="connect.php" method="post">
+            <h3>sign in</h3>
+            <span>email</span>
+            <input type="email" name="email" class="box"  placeholder="enter your email">
+            <span>password</span>
+            <input type="password" name="password" class="box"  placeholder="enter your password">
+
+            <div class="check-box">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <form action="connect.php" method="post" id="registration-form">
+                <button name="submit" type="submit">Sign In</button>
+              
+                <p>forgot password ? <a href="">click here</a></p>
+                <p>don't have an account ? <a href="">create one</a></p>
+            </form> 
+        </form>
+    </div>
+
+     <!-------- login form ends ----------->
+
+
+      <!-------- review section start  ----------->
+
+      <section class="reviews" id="reviews">
+
+        <h1 class="heading" style="padding: 3rem;"><span>client's reviews</span></h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+                 <div class="swiper-slide box">
+                    <img src="./images/sandy.jpg" alt="">
+                    <h3>Sandy</h3>
+                    <p>
+                        "I stumbled upon this website a few months ago and can't get enough! The reviews are not just summaries; they're like a conversation with a well-read friend. Thanks to this site, my reading list has grown, and I've discovered some incredible authors I wouldn't have found otherwise. Highly recommend!"
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                 </div>
+
+                 <div class="swiper-slide box">
+                    <img src="./images/pic-2.png" alt="">
+                    <h3>Rishu</h3>
+                    <p>
+                        "As a book club organizer, I'm always on the lookout for fresh and exciting reads. This website has become my secret weapon. The diverse selection of books and the insightful reviews make my job a breeze. Our discussions have reached a whole new level, and our members love the recommendations!"                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                 </div>
+
+                 <div class="swiper-slide box">
+                    <img src="./images/pic-4.png" alt="">
+                    <h3>Manasi</h3>
+                    <p>
+                        "I used to be a casual reader, but this website turned me into a full-blown bookworm. The reviews are accessible and not overly academic, making it easy for readers of all levels to connect with the content. The site's clean layout and intuitive design also make it a pleasure to navigate. A game-changer for my reading habits!"                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                 </div>
+
+                 <div class="swiper-slide box">
+                    <img src="./images/pic-5.png" alt="">
+                    <h3>Karan</h3>
+                    <p>
+                        "As a busy professional, I don't have the luxury of browsing through endless bookshelves. This website is my go-to solution. The concise yet comprehensive reviews help me make informed choices, and the categorization makes it easy to find books that fit my limited free time. A lifesaver for any book lover with a hectic schedule!"
+
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                 </div>
+
+                 <div class="swiper-slide box">
+                    <img src="./images/pic-6.png" alt="">
+                    <h3>Karan</h3>
+                    <p>
+                        "As a book club organizer, I'm always on the lookout for fresh and exciting reads. This website has become my secret weapon. The diverse selection of books and the insightful reviews make my job a breeze. Our discussions have reached a whole new level, and our members love the recommendations!"                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                 </div>
+
+                 <div class="swiper-slide box">
+                    <img src="./images/pic-3.png" alt="">
+                    <h3>Tushar</h3>
+                    <p>
+                        "As a book club organizer, I'm always on the lookout for fresh and exciting reads. This website has become my secret weapon. The diverse selection of books and the insightful reviews make my job a breeze. Our discussions have reached a whole new level, and our members love the recommendations!"                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+       <!-------- footer section start  ----------->
+
+       <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our locations</h3>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Pune</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Mumbai</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Ahmednagar</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Delhi</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Banglore</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>Hyderabad</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>Categories</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Bestsellers</a>
+                <a href=""><i class="fas fa-arrow-right"></i>New arrivals</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Review</a>
+              
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>account info</a>
+                <a href=""><i class="fas fa-arrow-right"></i>ordered items</a>
+                <a href=""><i class="fas fa-arrow-right"></i>privacy policy</a>
+                <a href=""><i class="fas fa-arrow-right"></i>payment method</a>
+                <a href=""><i class="fas fa-arrow-right"></i>our services</a>
+            </div>
+
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href=""><i class="fas fa-phone"></i>+91-8591928862</a>
+                <a href=""><i class="fas fa-phone"></i>+91-9161262394</a>
+                <a href=""><i class="fas fa-envelope"></i>sandippawar1514@gmail.com</a>
+                <a href=""><i class="fas fa-envelope"></i>rishusingh1514@gmail.com</a>
+                <img src="images/worldmap.png" alt="" class="map">
+            </div>
+        </div>
+
+        <div class="share">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-square-pinterest"></i></a>
+        </div>
+        
+        <div class="credit">created by <span>sandy and rishu</span> | all rights reserved</div>
+
+    </section>
+
+
+  </section>
+ <!-------- footer section ends  ----------->
+
+ <!---- swiper cdn link ---------->
+ <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+     
+
+ <!------- customer script link --------->
+
+ <script src="./js/script.js"></script>
+
+</body>
+</html>
